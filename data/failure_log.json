@@ -1,0 +1,1434 @@
+[
+  {
+    "timestamp": "2026-04-16T14:20:53.023Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T14:30:19.153Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T14:30:19.154Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T15:11:05.566Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "math",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:11:05.567Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T15:18:15.687Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:18:15.718Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:18:17.367Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:20:36.173Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:20:36.203Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:20:37.924Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:30:21.998Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:30:22.098Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:30:22.099Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T15:36:30.905Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:36:30.938Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:36:33.036Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:40:22.075Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:40:22.105Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:40:22.106Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T15:41:00.466Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:41:00.673Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:44:46.746Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:44:46.857Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:44:48.466Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:44:50.293Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:44:52.086Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "taskType": "summarization",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:46:41.075Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:46:41.154Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:47:27.862Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T15:47:27.941Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:10:19.670Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:10:19.684Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:15:46.641Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:15:46.642Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T16:25:48.247Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:25:48.248Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T16:35:46.719Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:35:46.720Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T16:45:47.385Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:45:47.386Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T16:55:46.602Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T16:55:46.603Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T17:05:46.627Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:05:46.641Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:05:46.642Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T17:15:46.663Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:15:46.664Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T17:22:11.225Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:22:11.309Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:22:12.802Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "canonical": "nemotron-3-super-120b-a12b",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:23.956Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:23.972Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:25.448Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:27.092Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:28.742Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:30.394Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:32.047Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:23:33.671Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:32:04.302Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:32:04.373Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:32:05.955Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:41:06.836Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:11.624Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:11.626Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:11.652Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:11.716Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:13.142Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:39.937Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:40.003Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:42:40.005Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:37.520Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:39.176Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:39.568Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:39.633Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:39.670Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:39.752Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:47:41.422Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "summarization",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:52:41.870Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T17:52:41.872Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:02:41.770Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:02:41.772Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:12:40.259Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:12:40.260Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:22:41.787Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:22:41.788Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:32:40.298Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:32:40.298Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:42:41.812Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:42:41.813Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T18:52:40.301Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:52:40.373Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T18:52:40.375Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T19:02:42.048Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T19:02:42.050Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T20:25:24.586Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:25:24.607Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:25:24.626Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T20:35:22.703Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:35:22.920Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:35:22.921Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T20:45:23.537Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:45:23.539Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T20:55:23.672Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T20:55:23.674Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:05:23.615Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:05:23.616Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:15:22.045Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:15:22.139Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:15:22.145Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:25:23.649Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:25:23.650Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:35:22.014Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:35:22.016Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:45:22.386Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:45:22.388Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T21:55:19.541Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T21:55:19.542Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T22:05:19.553Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:05:19.590Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:05:19.591Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:15.357Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:15.392Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:15.480Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:15.597Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.020Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.116Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.217Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.246Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.342Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.447Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.478Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:29.586Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:39.027Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:39.124Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:39.201Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:12:39.304Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:40:43.364Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:40:43.365Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T22:50:42.142Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:50:42.209Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T22:50:42.210Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T23:00:42.206Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:00:42.303Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:00:42.304Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T23:10:42.174Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:10:42.191Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:10:42.192Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:56.820Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:56.887Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:56.941Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:57.023Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:57.113Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:57.210Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:16:59.158Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:17:09.087Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:17:09.151Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "math",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:17:09.174Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:17:45.120Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-16T23:17:45.142Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T00:50:36.716Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T00:50:36.719Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-17T01:00:37.189Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T01:00:37.190Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-17T01:10:35.196Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T01:10:35.225Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T01:10:35.227Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-17T02:45:51.043Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T02:45:51.048Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_unknown",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T02:45:51.050Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-17T02:55:53.071Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T02:55:53.138Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "math",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T02:55:53.139Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "math",
+    "failureMode": "honeypot_benchmark",
+    "severity": "minor"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:05.253Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "summarization",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:05.597Z",
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "canonical": "llama-3-8b-instruct",
+    "taskType": "qa",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:05.632Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:05.708Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "creative",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:28.236Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:29.975Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:30.040Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "code",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:01:30.117Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "code",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:10:11.956Z",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "canonical": "llama-3.1-8b-instruct",
+    "taskType": "text",
+    "failureMode": "http_404",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:10:11.972Z",
+    "model": "qwen/qwen2.5-3b-instruct:free",
+    "canonical": "qwen2.5-3b-instruct",
+    "taskType": "text",
+    "failureMode": "http_400",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:10:13.642Z",
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "canonical": "gemma-4-26b-a4b-it",
+    "taskType": "code",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  },
+  {
+    "timestamp": "2026-04-17T03:14:27.427Z",
+    "model": "google/gemma-4-31b-it:free",
+    "canonical": "gemma-4-31b-it",
+    "taskType": "text",
+    "failureMode": "rate_limit_429",
+    "severity": "major"
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "google/gemma-4-26b-a4b-it:free": {
+    "summarization": {
+      "score": 1216,
+      "wins": 2,
+      "losses": 1
+    },
+    "code": {
+      "score": 1123.391484914724,
+      "wins": 1,
+      "losses": 6
+    },
+    "qa": {
+      "score": 1232,
+      "wins": 2,
+      "losses": 0
+    },
+    "math": {
+      "score": 1168,
+      "wins": 0,
+      "losses": 2
+    }
+  },
+  "meta-llama/llama-3-8b-instruct:free": {
+    "code": {
+      "score": 1057.6283262411712,
+      "wins": 0,
+      "losses": 10
+    },
+    "qa": {
+      "score": 1170.4535168334712,
+      "wins": 0,
+      "losses": 2
+    }
+  },
+  "meta-llama/llama-3.1-8b-instruct:free": {
+    "creative": {
+      "score": 1087.8347995704783,
+      "wins": 0,
+      "losses": 7
+    },
+    "code": {
+      "score": 1166.2319830905867,
+      "wins": 0,
+      "losses": 2
+    },
+    "math": {
+      "score": 1121.3226770459873,
+      "wins": 0,
+      "losses": 5
+    }
+  },
+  "qwen/qwen2.5-3b-instruct:free": {
+    "creative": {
+      "score": 1085.5828789501445,
+      "wins": 0,
+      "losses": 7
+    },
+    "code": {
+      "score": 1182.873909228022,
+      "wins": 0,
+      "losses": 1
+    },
+    "math": {
+      "score": 1150.498934180061,
+      "wins": 0,
+      "losses": 3
+    }
+  },
+  "nvidia/nemotron-3-super-120b-a12b:free": {
+    "code": {
+      "score": 1242.0315539267451,
+      "wins": 3,
+      "losses": 0
+    },
+    "summarization": {
+      "score": 1216.3683485189692,
+      "wins": 1,
+      "losses": 0
+    },
+    "math": {
+      "score": 1192.9047847150136,
+      "wins": 2,
+      "losses": 2
+    },
+    "qa": {
+      "score": 1233.0877098006983,
+      "wins": 2,
+      "losses": 0
+    }
+  },
+  "llama-3.1-8b-instruct": {
+    "creative": {
+      "score": 1081.9101152623516,
+      "wins": 0,
+      "losses": 7,
+      "displayName": "meta-llama/llama-3.1-8b-instruct:free"
+    },
+    "math": {
+      "score": 966.3270865543028,
+      "wins": 0,
+      "losses": 18,
+      "displayName": "meta-llama/llama-3.1-8b-instruct:free"
+    },
+    "code": {
+      "score": 1027.971114318873,
+      "wins": 0,
+      "losses": 13,
+      "displayName": "meta-llama/llama-3.1-8b-instruct:free"
+    },
+    "qa": {
+      "score": 1134.6729355401585,
+      "wins": 0,
+      "losses": 6,
+      "displayName": "meta-llama/llama-3.1-8b-instruct:free"
+    },
+    "text": {
+      "score": 1184,
+      "wins": 0,
+      "losses": 1,
+      "displayName": "meta-llama/llama-3.1-8b-instruct:free"
+    }
+  },
+  "qwen2.5-3b-instruct": {
+    "creative": {
+      "score": 1074.4735290732053,
+      "wins": 0,
+      "losses": 7,
+      "displayName": "qwen/qwen2.5-3b-instruct:free"
+    },
+    "math": {
+      "score": 987.2775956450137,
+      "wins": 0,
+      "losses": 15,
+      "displayName": "qwen/qwen2.5-3b-instruct:free"
+    },
+    "code": {
+      "score": 1086.885740816514,
+      "wins": 0,
+      "losses": 7,
+      "displayName": "qwen/qwen2.5-3b-instruct:free"
+    },
+    "qa": {
+      "score": 1153.0390159326128,
+      "wins": 0,
+      "losses": 3,
+      "displayName": "qwen/qwen2.5-3b-instruct:free"
+    },
+    "text": {
+      "score": 1183.263693206478,
+      "wins": 0,
+      "losses": 1,
+      "displayName": "qwen/qwen2.5-3b-instruct:free"
+    }
+  },
+  "nemotron-3-super-120b-a12b": {
+    "code": {
+      "score": 1249.7073424683886,
+      "wins": 1,
+      "losses": 1,
+      "displayName": "nvidia/nemotron-3-super-120b-a12b:free"
+    }
+  },
+  "gemma-4-26b-a4b-it": {
+    "code": {
+      "score": 968.8140741726596,
+      "wins": 0,
+      "losses": 21,
+      "displayName": "google/gemma-4-26b-a4b-it:free"
+    },
+    "summarization": {
+      "score": 1202.0445375779495,
+      "wins": 0,
+      "losses": 2,
+      "displayName": "google/gemma-4-26b-a4b-it:free"
+    },
+    "qa": {
+      "score": 1142.1077363261968,
+      "wins": 0,
+      "losses": 6,
+      "displayName": "google/gemma-4-26b-a4b-it:free"
+    },
+    "math": {
+      "score": 1029.8929957069984,
+      "wins": 0,
+      "losses": 13,
+      "displayName": "google/gemma-4-26b-a4b-it:free"
+    }
+  },
+  "llama-3-8b-instruct": {
+    "qa": {
+      "score": 1156.1001064672341,
+      "wins": 0,
+      "losses": 4,
+      "displayName": "meta-llama/llama-3-8b-instruct:free"
+    },
+    "math": {
+      "score": 1069.8419404577642,
+      "wins": 0,
+      "losses": 8,
+      "displayName": "meta-llama/llama-3-8b-instruct:free"
+    },
+    "code": {
+      "score": 1160.4920297917993,
+      "wins": 0,
+      "losses": 3,
+      "displayName": "meta-llama/llama-3-8b-instruct:free"
+    }
+  },
+  "llama-3.3-70b-versatile": {
+    "math": {
+      "score": 1251.0885160121536,
+      "wins": 5,
+      "losses": 0,
+      "displayName": "llama-3.3-70b-versatile"
+    }
+  },
+  "gemma-4-31b-it": {
+    "text": {
+      "score": 1183.2467758520595,
+      "wins": 0,
+      "losses": 1,
+      "displayName": "google/gemma-4-31b-it:free"
+    }
+  }
+}

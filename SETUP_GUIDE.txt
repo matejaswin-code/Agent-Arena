@@ -1,0 +1,392 @@
+════════════════════════════════════════════════════════════════
+   AGENT ARENA — COMPLETE BEGINNER SETUP GUIDE
+   Written for someone who has never coded before.
+   Read every section in order before doing anything!
+════════════════════════════════════════════════════════════════
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1 — WHAT IS THIS PROJECT?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Agent Arena is a web app where you type a question, and THREE
+different AI models race to answer it. You watch them compete
+live in your browser — like a battle arena for AI!
+
+The website is served by a "backend" (server.js) that connects
+to real AI APIs. You run it on your own computer and open it
+in Chrome/Firefox just like any other website.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2 — YOUR FILE STRUCTURE (What You Should Have)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After unzipping, your folder should look like this:
+
+  agent-arena/
+  ├── .env                  ← API keys (already filled in for you!)
+  ├── server.js             ← The web server (you run this)
+  ├── index.js              ← Test runner (optional)
+  ├── package.json          ← Project settings (don't touch)
+  ├── SETUP_GUIDE.txt       ← This file
+  ├── public/
+  │   └── index.html        ← The website (opens in browser)
+  ├── data/                 ← Created automatically (scores, cache)
+  └── src/                  ← All the AI brain code
+      ├── agent.js
+      ├── heuristicCheck.js
+      ├── honeypot.js
+      ├── refiner.js
+      ├── reviewer.js
+      ├── router.js
+      ├── sandbox.js
+      ├── scoreboard.js
+      ├── semanticCache.js
+      ├── telemetry.js
+      └── tools.js
+
+IMPORTANT: The .env file already has API keys filled in!
+You do NOT need to create your own API keys to get started.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3 — WHAT YOU NEED INSTALLED ON YOUR COMPUTER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You only need TWO things:
+
+  1. NODE.JS — The engine that runs JavaScript code
+  2. VS CODE — The editor you already have ✅
+
+━━ INSTALLING NODE.JS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Step 1: Go to  https://nodejs.org
+  Step 2: Click the big green button that says "LTS" (Long Term Support)
+  Step 3: Run the downloaded installer and click Next → Next → Finish
+  Step 4: RESTART your computer after installing
+
+  To check it worked:
+    → Open VS Code
+    → Press Ctrl + ` (backtick key, top-left of keyboard)
+    → A terminal appears at the bottom
+    → Type:  node --version
+    → Press Enter
+    → You should see something like:  v22.0.0  (any version is fine)
+
+  If you see a version number — you're good to go! ✅
+  If you see "not recognized" — try restarting your computer first.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4 — STEP BY STEP: RUNNING THE APP (Do These In Order!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Open the project folder in VS Code
+  ──────────────────────────────────────────
+  1. Open VS Code
+  2. Click "File" in the top menu
+  3. Click "Open Folder..."
+  4. Find and select the "agent-arena" folder
+  5. Click "Select Folder"
+  
+  You should now see all the files listed in the left panel.
+
+
+STEP 2: Open the Terminal
+  ──────────────────────────────────────────
+  Press:  Ctrl + `  (the backtick, top-left of keyboard, below Escape)
+  
+  A black/dark panel appears at the bottom of VS Code.
+  This is the terminal — it's where you type commands.
+  
+  TIP: If Ctrl+` doesn't work, click "Terminal" in the top menu
+       then "New Terminal"
+
+
+STEP 3: Make sure you're in the right folder
+  ──────────────────────────────────────────
+  In the terminal, type this and press Enter:
+  
+    pwd
+  
+  You should see a path ending in "agent-arena", like:
+    /Users/yourname/Desktop/agent-arena
+  
+  If you see something else, type:
+    cd agent-arena
+  and press Enter (replace "agent-arena" with whatever your
+  folder is named).
+
+
+STEP 4: Install the project's dependencies
+  ──────────────────────────────────────────
+  In the terminal, type this EXACTLY and press Enter:
+  
+    npm install
+  
+  Wait! This will take 10-30 seconds. You'll see text scrolling.
+  
+  ✅ SUCCESS looks like: "added 74 packages" or similar, no red text
+  ❌ ERROR: if you see red text, go to Section 7 (Troubleshooting)
+  
+  This only needs to be done ONCE. Never again after this.
+
+
+STEP 5: Start the server
+  ──────────────────────────────────────────
+  In the terminal, type this and press Enter:
+  
+    npm start
+  
+  Wait for this message to appear:
+  
+    [Server] 🚀 Server running at http://localhost:3000
+  
+  The terminal will keep running and showing logs — that's normal!
+  Don't close it while the app is running.
+
+
+STEP 6: Open the website in your browser
+  ──────────────────────────────────────────
+  Open Chrome, Firefox, or Edge.
+  
+  In the address bar, type:
+    http://localhost:3000
+  
+  Press Enter.
+  
+  🎉 You should see the AGENT ARENA website!
+
+
+STEP 7: Run your first battle!
+  ──────────────────────────────────────────
+  1. Click the text box on the website
+  2. Type something like:  What is 15% of 240?
+  3. Click "Start Battle" (or press Enter)
+  4. Watch the agents compete!
+  
+  After 5-15 seconds, you'll see the answer appear below.
+  The agents' progress bars and activity logs update live.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 5 — HOW TO STOP AND RESTART
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TO STOP the server:
+  Click in the terminal, then press:  Ctrl + C
+  The server stops. The website will show an error if you try
+  to load it now (that's normal — the server is off).
+
+TO RESTART the server:
+  Type:  npm start
+  Press Enter.
+  Open http://localhost:3000 again.
+
+TO CLOSE everything:
+  Stop the server (Ctrl+C), then close VS Code normally.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 6 — WHAT THE WEBSITE SHOWS YOU
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PIPELINE BAR (top, appears when a battle starts):
+  Shows which step of the AI process is currently running.
+  Steps: Refining Prompt → Cache Check → Routing → Agents Running → Refining Answer
+
+⚡ YELLOW BANNER ("Cache hit!"):
+  Means the system already answered a similar question before.
+  The saved answer is returned instantly without calling any AI!
+
+AGENT A CARD (green):
+  Shows progress, speed, error count, and live activity logs
+  for the first AI agent.
+
+AGENT B CARD (blue):
+  Same as Agent A but for the second agent. Often shows
+  complementary behind-the-scenes information.
+
+🔍 BEHIND THE SCENES:
+  Shows exactly which AI model handled each subtask and what
+  it returned — so you can see the "thinking" process.
+
+✅ FINAL ANSWER:
+  The cleaned-up, refined response after all processing.
+
+📊 MODEL SCOREBOARD:
+  The Elo ratings for each AI model, updated after every battle.
+  Models that answer well score higher (like chess rankings).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 7 — TROUBLESHOOTING (Common Problems & Fixes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROBLEM: "npm is not recognized" or "node is not recognized"
+  FIX 1: Restart your computer after installing Node.js
+  FIX 2: Reinstall Node.js from https://nodejs.org (choose LTS)
+  FIX 3: In VS Code, press F1, type "Select Default Profile",
+          choose "Command Prompt" (Windows) or "bash" (Mac)
+
+PROBLEM: "npm install" gives red errors
+  FIX: Try typing these commands one at a time:
+    npm cache clean --force
+    npm install
+  
+  If still failing: delete the "node_modules" folder in your
+  project (if it exists), then run npm install again.
+
+PROBLEM: "Error: address already in use" or "port 3000 in use"
+  FIX: Something else is using port 3000. Open .env file and
+  change PORT=3000 to PORT=3001, then restart the server.
+  Open http://localhost:3001 instead.
+
+PROBLEM: The website loads but "Start Battle" doesn't work
+  FIX: Check the terminal — look for red error messages.
+  The most likely issue is an API key that expired.
+  The API keys in .env are provided — if they expire, you
+  can get free replacements at https://openrouter.ai
+
+PROBLEM: Answers come back as errors or "all models failed"
+  FIX: The free-tier API keys have rate limits. Wait 1-2 minutes
+  and try again. The keys reset regularly.
+
+PROBLEM: "Cannot find module" error
+  FIX: You're probably not in the right folder.
+  In terminal type: pwd
+  Make sure the path ends in "agent-arena".
+  If not, type: cd agent-arena (or whatever your folder is named)
+
+PROBLEM: The terminal closes or disappears
+  FIX: Press Ctrl+` to reopen it in VS Code.
+
+PROBLEM: I accidentally closed the server terminal
+  FIX: Open a new terminal (Ctrl+`), make sure you're in the
+  project folder, type: npm start
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 8 — UNDERSTANDING THE TERMINAL OUTPUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When the server runs, messages appear in the terminal. This is
+NORMAL and helpful! Here's what they mean:
+
+[Server] 🚀 Server running at http://localhost:3000
+  → Good! The server started successfully.
+
+[Refiner] Prompt refined: 20 chars → 85 chars
+  → Your prompt was automatically expanded to be clearer.
+
+[SemanticCache] ❌ Cache miss. Best similarity: 23.4%
+  → This question wasn't in the cache. Will ask the AI.
+
+[SemanticCache] ✅ Cache HIT! Similarity: 94.3%
+  → Found a similar question in cache — fast answer!
+
+[Router] Task: "math" | Subtasks: 1
+  → Identified your question as a math problem.
+
+[Agent:llama-3.1-8b-instruct] ✅ Heuristic check passed
+  → Quick quality check passed — answer looks good!
+
+[Scoreboard] ✅ WIN: model-name / math → score: 1200 → 1210
+  → The AI model got scored higher for a good answer.
+
+[Honeypot] 🍯 Running secret check | Task: code
+  → Background quality test running (every 10 minutes).
+
+[Agent] ↩️ Falling back: abandoned "model-a" | trying "model-b"
+  → One AI failed, switching to backup. This is OK!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 9 — EXAMPLE PROMPTS TO TRY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Math:
+  What is 15% of 480?
+  A train travels at 60mph for 2.5 hours. How far does it go?
+  What is the area of a circle with radius 7?
+
+Code:
+  Write a Python function to check if a number is prime.
+  Write JavaScript to reverse a string.
+  Run this code: console.log([1,2,3].map(x => x * 2))
+
+General Knowledge:
+  What is the capital of France?
+  Who wrote Romeo and Juliet?
+  What does HTML stand for?
+
+Creative:
+  Write a haiku about artificial intelligence.
+  Explain quantum computing like I'm 10 years old.
+  What are 3 fun facts about the ocean?
+
+TIP: After asking something, ask the SAME question again.
+     The second time it will be a ⚡ cache hit — much faster!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 10 — API ENDPOINTS (For the Curious!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+While the server is running, you can visit these URLs:
+
+http://localhost:3000
+  → The main website (Agent Arena UI)
+
+http://localhost:3000/health
+  → Shows if the server is running and for how long
+
+http://localhost:3000/scoreboard
+  → Shows all AI model scores in JSON format
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 11 — HOW THE SYSTEM WORKS (Simple Version)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+When you type a question and click Start Battle:
+
+  1. REFINE PROMPT
+     Your question gets rewritten to be clearer and more specific.
+     "explain python" → "Provide a beginner-friendly explanation
+     of the Python language with its main use cases."
+
+  2. CACHE CHECK
+     Has a similar question been asked before? If YES, return
+     the cached answer instantly. If NO, continue.
+
+  3. ROUTING
+     A fast AI (Groq/LLaMA) decides: is this coding? math? 
+     creative writing? It picks the best agent for the job.
+
+  4. AGENTS RUN
+     The chosen AI agent processes your question.
+     Tools like "run code" or "read image" activate if needed.
+
+  5. QUALITY CHECK
+     Free instant checks run: Is the answer long enough? Is
+     any code valid? Is JSON formatted correctly?
+     If checks fail, a reviewer AI looks more carefully.
+
+  6. REFINE ANSWER
+     The response gets cleaned up for readability.
+
+  7. CACHE & RETURN
+     The answer is saved for next time, then shown to you.
+
+  8. SCOREBOARD UPDATE
+     The model that answered gets a win (score goes up).
+     If it failed, it gets a loss (score goes down).
+     This is exactly how chess Elo ratings work!
+
+
+════════════════════════════════════════════════════════════════
+   YOU'RE ALL SET! The .env file has working API keys.
+   Just do:  npm install  →  npm start  →  open localhost:3000
+════════════════════════════════════════════════════════════════

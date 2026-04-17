@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent",
+  "version": "2.0.0",
+  "description": "Multi-AI agent system with routing, caching, reviewing, and scoring",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":  "node server.js",
+    "test":   "node index.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv":  "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
